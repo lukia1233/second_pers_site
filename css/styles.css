@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 3.8rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 1.875rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+}
+
+          /* es  a   boloshi romaa linkebi isaa */
+a {
+  margin: 10px 20px;
+  color: #11999E;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+p {
+  line-height: 2;
+  color: #40514E;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #9e9e9e;
+  border-width: 6px;
+  width: 5%;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.middle-container {
+  margin-top: 80px;
+  color: #40514E;
+}
+
+.skills{
+  margin-top: 100px;
+}
+.intro {
+  width: 30%;
+  margin: auto auto 80px auto;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 150px auto;
+  text-align: left;
+  overflow: auto;
+}
+.drawing {
+  width: 50%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 12px;
+
+}
+.comics {
+  width: 50%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 12px;
+}
+
+.contact-me{
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.btn {
+  background:  #11cdd4;
+  background-image: -webkit-linear-gradient(top,  #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top,  #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top,  #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top,  #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom,  #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 120px;
+}
+.btn:hover {
+  background:  #30e3cb;
+  background-image: -webkit-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom,  #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding-top: 35px;
+  padding-bottom: 10px;
+}
+.boloshi_roa{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
